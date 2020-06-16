@@ -1,0 +1,24 @@
+{
+  "name": "onixsystemsautomation",
+  "version": "1.0.0",
+  "description": "UI, Functional automation tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teddorian/onixSystemsAutomation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teddorian/onixSystemsAutomation/issues"
+  },
+  "homepage": "https://github.com/teddorian/onixSystemsAutomation#readme",
+  "devDependencies": {
+    "cypress": "^4.8.0",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1"
+  }
+}
