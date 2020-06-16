@@ -1,3 +1,4 @@
 {
-  "projectId": "nghner"
+  "projectId": "nghner",
+  "reporter": "mochawesome"
 }
