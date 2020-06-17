@@ -4,8 +4,7 @@
   "description": "UI, Functional automation tests",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --reporter mochawesome",
-    "testDashboard": "npm run test -- --record --key 598a5762-8f36-4b5b-ae8d-528451ad07c5"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

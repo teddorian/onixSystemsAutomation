@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-06-16T18:10:44.919Z",
-    "end": "2020-06-16T18:11:14.334Z",
-    "duration": 29415,
+    "start": "2020-06-17T15:12:29.361Z",
+    "end": "2020-06-17T15:13:08.417Z",
+    "duration": 39056,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f5bc9a5f-c2a8-42cb-b3b0-a259d5e76cc5",
+      "uuid": "2e5fac32-56bf-443e-bbfd-c8be149b05f1",
       "title": "",
       "fullFile": "cypress/integration/homeVisual.js",
       "file": "cypress/integration/homeVisual.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e3f5b782-bc4a-42cb-ae29-95b976ed79fa",
+          "uuid": "6b752ab4-a876-4fda-afca-5d61ee92fee6",
           "title": "Visual Test for HomePage",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Open Home Page",
               "fullTitle": "Visual Test for HomePage Open Home Page",
               "timedOut": null,
-              "duration": 22250,
+              "duration": 29843,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "//cy.percySnapshot('Home')\ncy.visit('https://onix-systems.com/'); //cy.percySnapshot('HomeDowloaded')",
               "err": {},
-              "uuid": "6b03eb00-20e2-40a4-94f9-c33f51cc884c",
-              "parentUUID": "e3f5b782-bc4a-42cb-ae29-95b976ed79fa",
+              "uuid": "4124fb4b-82d7-4ada-9907-7cdd9fb68d5d",
+              "parentUUID": "6b752ab4-a876-4fda-afca-5d61ee92fee6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6b03eb00-20e2-40a4-94f9-c33f51cc884c"
+            "4124fb4b-82d7-4ada-9907-7cdd9fb68d5d"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 22250,
+          "duration": 29843,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
