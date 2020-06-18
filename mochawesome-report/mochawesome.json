@@ -1,24 +1,24 @@
 {
   "stats": {
-    "suites": 1,
-    "tests": 1,
-    "passes": 1,
+    "suites": 2,
+    "tests": 2,
+    "passes": 0,
     "pending": 0,
-    "failures": 0,
-    "start": "2020-06-17T15:36:31.817Z",
-    "end": "2020-06-17T15:37:23.702Z",
-    "duration": 51885,
+    "failures": 2,
+    "start": "2020-06-18T09:55:44.880Z",
+    "end": "2020-06-18T09:59:09.251Z",
+    "duration": 204371,
     "testsRegistered": 1,
-    "passPercent": 100,
+    "passPercent": 0,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
-    "skipped": 0,
+    "skipped": -1,
     "hasSkipped": false
   },
   "results": [
     {
-      "uuid": "a1e44d6d-b3dd-4b92-bc26-9d06047e5037",
+      "uuid": "8da24cd1-52cb-485c-8da4-dc2835cc94d6",
       "title": "",
       "fullFile": "cypress/integration/homeVisual.js",
       "file": "cypress/integration/homeVisual.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "efd1255a-b3a9-4e9b-ad7a-1a91529be49b",
+          "uuid": "b4414c8a-be7e-4d23-b52c-d52fe43a6ae6",
           "title": "Visual Test for HomePage",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,33 @@
               "title": "Open Home Page",
               "fullTitle": "Visual Test for HomePage Open Home Page",
               "timedOut": null,
-              "duration": 37820,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
+              "duration": 94500,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
               "pending": false,
               "context": null,
               "code": "//cy.percySnapshot('Home')\ncy.visit('https://onix-systems.com/'); //cy.percySnapshot('HomeDowloaded')",
-              "err": {},
-              "uuid": "5bbe2e4c-6c8a-4d8e-b94c-c02381cf1f66",
-              "parentUUID": "efd1255a-b3a9-4e9b-ad7a-1a91529be49b",
+              "err": {
+                "message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.",
+                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at http://localhost:52609/__cypress/runner/cypress_runner.js:153362:22\n    at tryCatcher (http://localhost:52609/__cypress/runner/cypress_runner.js:10161:23)\n    at http://localhost:52609/__cypress/runner/cypress_runner.js:5283:41\n    at tryCatcher (http://localhost:52609/__cypress/runner/cypress_runner.js:10161:23)\n    at Promise._settlePromiseFromHandler (http://localhost:52609/__cypress/runner/cypress_runner.js:8096:31)\n    at Promise._settlePromise (http://localhost:52609/__cypress/runner/cypress_runner.js:8153:18)\n    at Promise._settlePromise0 (http://localhost:52609/__cypress/runner/cypress_runner.js:8198:10)\n    at Promise._settlePromises (http://localhost:52609/__cypress/runner/cypress_runner.js:8274:18)\n    at _drainQueueStep (http://localhost:52609/__cypress/runner/cypress_runner.js:4868:12)\n    at _drainQueue (http://localhost:52609/__cypress/runner/cypress_runner.js:4861:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:52609/__cypress/runner/cypress_runner.js:4877:5)\n    at Async.drainQueues (http://localhost:52609/__cypress/runner/cypress_runner.js:4747:14)",
+                "diff": null
+              },
+              "uuid": "8ffdbed2-8ff6-4884-ae68-67a201663b98",
+              "parentUUID": "b4414c8a-be7e-4d23-b52c-d52fe43a6ae6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [
-            "5bbe2e4c-6c8a-4d8e-b94c-c02381cf1f66"
+          "passes": [],
+          "failures": [
+            "8ffdbed2-8ff6-4884-ae68-67a201663b98"
           ],
-          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 37820,
+          "duration": 94500,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
