@@ -5,20 +5,20 @@
     "passes": 0,
     "pending": 0,
     "failures": 2,
-    "start": "2020-06-18T09:55:44.880Z",
-    "end": "2020-06-18T09:59:09.251Z",
-    "duration": 204371,
+    "start": "2020-06-18T12:50:53.517Z",
+    "end": "2020-06-18T12:52:42.997Z",
+    "duration": 109480,
     "testsRegistered": 1,
     "passPercent": 0,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
-    "skipped": -1,
+    "skipped": 0,
     "hasSkipped": false
   },
   "results": [
     {
-      "uuid": "8da24cd1-52cb-485c-8da4-dc2835cc94d6",
+      "uuid": "568c8bbb-9c37-4ad5-94f5-1b9547a921e8",
       "title": "",
       "fullFile": "cypress/integration/homeVisual.js",
       "file": "cypress/integration/homeVisual.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b4414c8a-be7e-4d23-b52c-d52fe43a6ae6",
+          "uuid": "07b8e002-4f56-459a-8a5f-c894c089ec43",
           "title": "Visual Test for HomePage",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Open Home Page",
               "fullTitle": "Visual Test for HomePage Open Home Page",
               "timedOut": null,
-              "duration": 94500,
+              "duration": 70975,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -48,11 +48,11 @@
               "code": "//cy.percySnapshot('Home')\ncy.visit('https://onix-systems.com/'); //cy.percySnapshot('HomeDowloaded')",
               "err": {
                 "message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.",
-                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at http://localhost:52609/__cypress/runner/cypress_runner.js:153362:22\n    at tryCatcher (http://localhost:52609/__cypress/runner/cypress_runner.js:10161:23)\n    at http://localhost:52609/__cypress/runner/cypress_runner.js:5283:41\n    at tryCatcher (http://localhost:52609/__cypress/runner/cypress_runner.js:10161:23)\n    at Promise._settlePromiseFromHandler (http://localhost:52609/__cypress/runner/cypress_runner.js:8096:31)\n    at Promise._settlePromise (http://localhost:52609/__cypress/runner/cypress_runner.js:8153:18)\n    at Promise._settlePromise0 (http://localhost:52609/__cypress/runner/cypress_runner.js:8198:10)\n    at Promise._settlePromises (http://localhost:52609/__cypress/runner/cypress_runner.js:8274:18)\n    at _drainQueueStep (http://localhost:52609/__cypress/runner/cypress_runner.js:4868:12)\n    at _drainQueue (http://localhost:52609/__cypress/runner/cypress_runner.js:4861:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:52609/__cypress/runner/cypress_runner.js:4877:5)\n    at Async.drainQueues (http://localhost:52609/__cypress/runner/cypress_runner.js:4747:14)",
+                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at http://localhost:55122/__cypress/runner/cypress_runner.js:153362:22\n    at tryCatcher (http://localhost:55122/__cypress/runner/cypress_runner.js:10161:23)\n    at http://localhost:55122/__cypress/runner/cypress_runner.js:5283:41\n    at tryCatcher (http://localhost:55122/__cypress/runner/cypress_runner.js:10161:23)\n    at Promise._settlePromiseFromHandler (http://localhost:55122/__cypress/runner/cypress_runner.js:8096:31)\n    at Promise._settlePromise (http://localhost:55122/__cypress/runner/cypress_runner.js:8153:18)\n    at Promise._settlePromise0 (http://localhost:55122/__cypress/runner/cypress_runner.js:8198:10)\n    at Promise._settlePromises (http://localhost:55122/__cypress/runner/cypress_runner.js:8274:18)\n    at _drainQueueStep (http://localhost:55122/__cypress/runner/cypress_runner.js:4868:12)\n    at _drainQueue (http://localhost:55122/__cypress/runner/cypress_runner.js:4861:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:55122/__cypress/runner/cypress_runner.js:4877:5)\n    at Async.drainQueues (http://localhost:55122/__cypress/runner/cypress_runner.js:4747:14)",
                 "diff": null
               },
-              "uuid": "8ffdbed2-8ff6-4884-ae68-67a201663b98",
-              "parentUUID": "b4414c8a-be7e-4d23-b52c-d52fe43a6ae6",
+              "uuid": "5b8df5f7-0782-4af5-bb76-f6c294a772f7",
+              "parentUUID": "07b8e002-4f56-459a-8a5f-c894c089ec43",
               "isHook": false,
               "skipped": false
             }
@@ -60,11 +60,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "8ffdbed2-8ff6-4884-ae68-67a201663b98"
+            "5b8df5f7-0782-4af5-bb76-f6c294a772f7"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 94500,
+          "duration": 70975,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -97,7 +97,13 @@
       "version": "6.1.1"
     },
     "marge": {
-      "options": null,
+      "options": {
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "viewportWidth": 1440,
+        "viewportHeight": 700
+      },
       "version": "5.1.0"
     }
   }
