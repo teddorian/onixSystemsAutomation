@@ -1,13 +1,13 @@
 {
   "projectId": "nghner",
   "defaultCommandTimeout": 10000,
-  "pageLoadTimeout": 35000,
+  "pageLoadTimeout": 70000,
   "reporter": "mochawesome",
   "reporterOptions": {
     "overwrite": false,
     "html": true,
     "json": true,
-    "viewportWidth": 1440,
+    "viewptWidth": 1440,
     "viewportHeight": 700
   }
 }
