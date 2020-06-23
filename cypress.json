@@ -1,5 +1,4 @@
 {
-  "projectId": "nghner",
   "defaultCommandTimeout": 10000,
   "pageLoadTimeout": 70000,
   "reporter": "mochawesome",
@@ -9,5 +8,6 @@
     "json": true,
     "viewptWidth": 1440,
     "viewportHeight": 700
-  }
+  },
+  "projectId": "nghner"
 }
