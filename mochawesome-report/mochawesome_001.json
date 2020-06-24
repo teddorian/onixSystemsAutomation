@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-24T05:23:42.051Z",
+    "end": "2020-06-24T05:24:35.314Z",
+    "duration": 53263,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "733c4f73-4034-4af7-8c5e-9cfdf2e706bd",
+      "title": "",
+      "fullFile": "cypress/integration/homeVisual.js",
+      "file": "cypress/integration/homeVisual.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "71678204-ea11-462f-b64e-743238cd87de",
+          "title": "Visual Test for HomePage",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Open Home Page",
+              "fullTitle": "Visual Test for HomePage Open Home Page",
+              "timedOut": null,
+              "duration": 45126,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://onix-systems.com/');\ncy.percySnapshot('HomeDowloaded');",
+              "err": {},
+              "uuid": "8ec5e429-c309-4c66-8c53-fc6cc82a4ec4",
+              "parentUUID": "71678204-ea11-462f-b64e-743238cd87de",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8ec5e429-c309-4c66-8c53-fc6cc82a4ec4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 45126,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "viewptWidth": 1440,
+        "viewportHeight": 700
+      },
+      "version": "5.1.0"
+    }
+  }
+}
